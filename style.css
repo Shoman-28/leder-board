@@ -1,0 +1,98 @@
+body{
+  font-family: 'poppins', sans-serif;
+  background-color: #f3f1ff;
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 60px;
+  background-color: #562eff;
+}
+.idea{
+  position: relative;
+}
+.logo{
+  display: flex;
+  width: 20px;
+  height: 20px;
+}
+.logo img{
+  position: relative;
+  width: 35px;
+  height: 30px;
+}
+.idea-name{
+  position: relative;
+  padding: 0px 20px;
+}
+.idea-name a{
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ul{
+  display: flex;
+  align-items: center;
+  justify-self: space-between;
+  
+}
+ ul .navbar{
+  padding: 3px 10px;
+  color: rgb(248, 248, 248);
+  list-style: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.img img{
+  width: 30px;
+  height: 25px;
+  
+}
+main{
+  display: flex;
+  justify-content: center;
+}
+.container{
+  background-color: #ffff;
+  padding: 30px ;
+  width: 870px;
+}
+
+/* top players style */
+.section-titel{
+  color: #562Eff;
+  font-size: 24px;
+  margin-top: 3px;
+}
+.top-plars{
+  margin-bottom: 30px;
+}
+.players{
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 30px;
+}
+.player{
+  display: flex;
+  align-items: center;
+}
+.player-name{
+  margin-left: 16px;
+  font-size: 18px;
+  
+}
+.player img{
+  width: 56px;
+  height: 56px;
+
+}
+hr{
+  border: 1px solid #D1D1D1;
+}
+/* top blog style */
+.top-blog{
+  
+}
